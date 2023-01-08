@@ -1,0 +1,198 @@
+:root{
+    --azul-oscuro:#0A3871;
+}
+
+main svg{
+    position: absolute;
+    left: 84px;
+    top: 40px;    
+}
+
+body{
+    background-color:#F3F5FC ;
+    font-size: 16px;
+}
+
+.cajaTexto{
+    position: absolute;
+    left: 240px;
+    top: 168px;
+    height: 48px;
+    width: 577px;
+}
+
+.ingresaTexto{
+    font-size: 32px;
+    font-family:'Montserrat', sans-serif;
+    font-style: regular;
+    line-height: 150%;
+    height: 48px;
+    width: 577px;
+    border: none;
+    background: #F3F5FC;
+    width: 110%;
+    height: 500px;
+    outline: none;
+    resize: none;
+    color: var(--azul-oscuro);
+}
+
+textarea:placeholder{
+    color: var(--azul-oscuro);
+}
+
+.recuadro{
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    top: 40px;
+    /* White */
+    background: #FFFFFF;
+    /* shadow */
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.recuadro svg{
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    left: 32px;
+    top: 243px;
+}
+
+.bloqueSalida{
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    top: 40px;
+}
+
+.salida{
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    left: 32px;
+    top: 243px;
+    display: none;
+    word-wrap: break-word;
+}
+
+.recuadro .aviso{
+    position: absolute;
+    top: 579px;
+    left: 32px;
+    width: 336px;
+    height: 58px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    /* or 29px */
+    text-align: center;
+
+    /* Gray/gray-500 */
+    color: #343A40;
+
+}
+
+.recuadro .info{
+    position: absolute;
+    top: 653px;
+    left: 32px;
+    width: 336px;
+    height: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    text-align: center;
+    /* Gray/gray-400 */
+    color: #495057;
+
+}
+
+.advertencia svg{
+    position: absolute;
+    top: 852px;
+    left: 240px;
+}
+
+.advertencia p{
+    position: absolute;
+    top: 851px;
+    left: 264px;
+    /* Solo letras minúsculas y sin acentos */
+    width: 230px;
+    height: 18px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    /* identical to box height, or 18px */
+
+    /* Gray/gray-400 */
+    color: #495057;
+
+    opacity: 0.8;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+}
+
+.botonEncriptar{
+    position: absolute;
+    top: 885px;
+    left: 240px;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    padding: 24px;
+    gap: 8px;
+    background: #0A3871;
+    color: white;
+    cursor: pointer;
+    transition: all 0.45s ease-in-out;
+}
+
+.botonEncriptar:hover,.botonDesencriptar:hover{
+transform: scale(1.05);
+}
+
+.botonDesencriptar{
+    position: absolute;
+    top: 885px;
+    left: 592px;
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    gap: 8px;
+
+    /* Light gray */
+    background: #D8DFE8;
+
+    /* Dark blue/dark-blue-300 */
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* Dark blue/dark-blue-300 */
+    color: #0A3871;
+    cursor: pointer;
+    transition: all 0.45s ease-in-out;
+}
+
+
