@@ -3,35 +3,32 @@
 }
 
 main svg{
-    position: absolute;
-    left: 84px;
-    top: 40px;    
+    position: relative;
+    left: 5.6vw;
+    top: 2.8vw;    
 }
 
 body{
     background-color:#F3F5FC ;
-    font-size: 16px;
+    font-size: 1.6vw;
 }
 
 .cajaTexto{
-    position: absolute;
-    left: 240px;
-    top: 168px;
-    height: 48px;
-    width: 577px;
+    position: relative;
+    left: 16.6vw;
+    top: 11.6vw;
+    width: 40.1vw;
 }
 
 .ingresaTexto{
-    font-size: 32px;
+    font-size: 2.22vw;
     font-family:'Montserrat', sans-serif;
     font-style: regular;
-    line-height: 150%;
-    height: 48px;
-    width: 577px;
+    line-height: 1.5vw;
+    height: 35vw;
+    width: 48.1vw;
     border: none;
     background: #F3F5FC;
-    width: 110%;
-    height: 500px;
     outline: none;
     resize: none;
     color: var(--azul-oscuro);
@@ -42,40 +39,40 @@ textarea:placeholder{
 }
 
 .recuadro{
-    position: absolute;
-    width: 400px;
-    height: 944px;
-    left: 1000px;
-    top: 40px;
+    position: relative;
+    width: 27.8vw;
+    height: 65.5vw;
+    left: 69.4vw;
+    top: 3.9vh;
     /* White */
     background: #FFFFFF;
     /* shadow */
-    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-    border-radius: 32px;
+    box-shadow: 0vw 1.6vw 2.2vw -0.56px rgba(0, 0, 0, 0.08);
+    border-radius: 2.2vw;
 }
 
 .recuadro svg{
-    position: absolute;
-    width: 336px;
-    height: 304px;
-    left: 32px;
-    top: 243px;
+    position: relative;
+    width: 23.3vw;
+    height: 21.1vw;
+    left: 2.2vw;
+    top: 16.9vw;
 }
 
 .bloqueSalida{
-    position: absolute;
-    width: 400px;
-    height: 944px;
-    left: 1000px;
-    top: 40px;
+    position: relative;
+    width: 27.8vw;
+    height: 65.6vw;
+    left: 69.4vw;
+    top: 2.8vw;
 }
 
 .salida{
-    position: absolute;
-    width: 336px;
-    height: 304px;
-    left: 32px;
-    top: 243px;
+    position: relative;
+    width: 23.3vw;
+    height: 21.1vw;
+    left: 2.2vw;
+    top: 16.9vw;
     display: none;
     word-wrap: break-word;
 }
